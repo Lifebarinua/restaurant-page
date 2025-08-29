@@ -1,0 +1,85 @@
+/* style.css */
+html, body {
+  height: 100%;              /* full height */
+  margin: 0;
+  display: flex;
+  flex-direction: column;    /* stack header, content, footer vertically */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;  /* dark fallback */
+  background-size: cover; /* makes the image fill the screen */
+ }
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* centers items */
+  gap: 30px; /* space between items */
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px; /* optional spacing */
+  color: #333;      /* optional text color */
+}
+
+/* Style the links */
+header ul li {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li:hover {
+  background-color: #555;
+}
+
+#content {
+  padding: 1rem;                 /* smaller inside spacing */
+  background: rgba(255, 255, 255, 0.1);
+  min-height: 25vh;              /* shorter box */
+  max-width: 600px;              /* narrower box */
+  margin: 2rem auto;             /* keep centered with space */
+  border-radius: 12px;
+  backdrop-filter: blur(2px);    /* subtle glass effect */
+}
+#intro-text{
+  text-align: center;
+  font-size: 18px;      /* optional: make it slightly bigger */
+  color: #333;          /* optional: text color */
+  margin-top: 10px;  /*   spacing from heading */
+}
+footer {
+  margin-top: auto;  /* pushes footer to bottom */
+  background-color: rgba(51, 51, 51, 0.85); /* semi-transparent dark footer */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
