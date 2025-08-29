@@ -5,20 +5,17 @@ html, body {
   display: flex;
   flex-direction: column;    /* stack header, content, footer vertically */
 }
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #222;  /* dark fallback */
   background-size: cover; /* makes the image fill the screen */
  }
-
 header {
   background-color: #333;
   color: white;
   padding: 1rem;
 }
-
 header ul {
   list-style: none;
   display: flex;

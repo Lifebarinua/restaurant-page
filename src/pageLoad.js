@@ -10,7 +10,6 @@ const description = document.createElement('p');
 description.innerHTML = "We serve the best food in town, made fresh every day.<br>Enjoy your meal!";
 description.id = "intro-text";
 
-
   // Append to #content
   content.appendChild(heading);
   content.appendChild(description);

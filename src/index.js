@@ -15,7 +15,6 @@ document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundPosition = "center center";
 document.body.style.backgroundAttachment = "fixed"; // optional: keeps it fixed while scrolling
 
-
 function init() {
   // Load default home page
   loadPage();
