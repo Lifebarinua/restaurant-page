@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/template.html',
-      filename: 'index.html', // REQUIRED for GitHub Pages
+      filename: 'index.html'
     }),
   ],
   module: {
@@ -28,7 +28,7 @@ module.exports = {
     ],
   },
   devServer: {
-    static: './docs',
+    static: './dist',
     hot: true,
     open: true,
   },
